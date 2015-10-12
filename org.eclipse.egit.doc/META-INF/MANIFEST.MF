@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %Bundle-Name
+Bundle-SymbolicName: org.eclipse.egit.doc;singleton:=true
+Bundle-Version: 4.0.0.201506090130-r
+Bundle-ClassPath: org.eclipse.egit.doc_4.0.0.201506090130-r.jar
+Bundle-Vendor: %Bundle-Vendor
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.mylyn.wikitext.core;bundle-version="[2.0.0,3.0.0)";resolution:=optional,
+ org.eclipse.mylyn.wikitext.core.ant;bundle-version="[2.0.0,3.0.0)";resolution:=optional,
+ org.eclipse.mylyn.wikitext.mediawiki.core;bundle-version="[2.0.0,3.0.0)";resolution:=optional,
+ org.eclipse.ui.cheatsheets;bundle-version="[3.3.0,4.0.0)"
+Created-By: Apache Maven 3.0.5
+Archiver-Version: Plexus Archiver
+Eclipse-SourceReferences: scm:git:https://git.eclipse.org/r/egit/egit.git;path="org.eclipse.egit.doc";commitId=48712bdfa849e1afd0071b937f0b2bef04767610
+Built-By: genie.egit
+Build-Jdk: 1.7.0_75
